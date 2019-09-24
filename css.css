@@ -1,0 +1,14 @@
+div {
+	border: 1px solid red;
+}
+
+html, body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	padding: 0.5vw;
+	margin: 0.5vw;
+}
+
+.badentry {
+    border: 2px dotted red;
+}

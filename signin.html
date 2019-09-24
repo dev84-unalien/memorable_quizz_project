@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="signin.js"></script>
+    <title>Inscription</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Formulaire d'inscription</legend>
+        <br>Nom:<br>
+        <input id = 'lastname' type = 'text' name = 'last' maxlength = '30' placeholder = 'Nom' size = '30' required><br>
+        <br>Prénom:<br>
+        <input id = 'firstname' type = 'text' name = 'first' maxlength = '20' placeholder = 'Prénom' size = '20' required><br>
+        <br>Adresse:<br>
+        <input id = 'address' type = 'text' name = 'addr' maxlength = '50' placeholder = 'Adresse' size = '50' required><br>
+        <br>Code Postal:<br>
+        <input id = 'zipcode' type = 'text' name = 'zip' maxlength = '5' placeholder = 'CP' size = '5' required><br>
+        <br>Ville:<br>
+        <input id = 'city' type = 'text' name = 'town' maxlength = '30' placeholder = 'Ville' size = '30' required><br>
+        <br>Téléphone:<br>
+        <input id = 'phone' type = 'tel' name = 'tel' maxlength = '10' placeholder = 'Tél.' size = '10' required><br>
+        <br>E-mail:<br>
+        <input id = 'mail' type = 'email' name = 'at' maxlength = '254' placeholder = 'E-mail' size = '50' required><br>
+        <br>Mot de passe (8 caractères min., 32 max., a-z, A-Z, 0-9):<br>
+        <input id = 'password1' type = 'password' name = 'pass1' maxlength = '32' placeholder = 'Mot de passe' size = '32' required><br>
+        <br>Confirmation du mot de passe:<br>
+        <input id = 'password2' type = 'password' name = 'pass2' maxlength = '32' placeholder = 'Confirmation du MdP' size = '32' required><br><br>
+        <button id = 'validate' type = 'button'>Valider</button>
+    </fieldset>
+</body>
+</html>
